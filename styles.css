@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+header{
+    background: linear-gradient(to right, #0a2449, rgb(104, 155, 155));
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+
+.logo{
+    font-size: 55px;
+    color: rgb(12, 128, 128);
+    text-decoration: underline;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding-top: 27px;
+    font-size: 22px;
+    font-family: monospace;
+
+}
+
+a{
+    color: burlywood;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+a:hover{
+    font-size: 23px;
+    color: cornflowerblue ;
+    font-style: italic;
+    text-decoration: underline;
+    transform: translate3d();
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+   padding: 35px; 
+}
+
+.main-text, .secondary-text{
+    flex: 1;
+}
+
+.main-text{
+font-size: 50px;
+font-weight: 600;
+color: rgb(165, 182, 197);
+}
+
+.secondary-text{
+    color: aliceblue;
+    font-style: italic;
+    padding: 15px 10px;
+}
+
+.bt1{
+    background-color: lightseagreen;
+    border-radius: 5px;
+    text-align: center;
+    border-style: none;
+    color: antiquewhite;
+    padding: 7px;
+}
+
+button:hover{
+    border-style: double;
+    border: 150px;
+    color: rgb(228, 210, 48);
+    background-color: cadetblue;
+    font-size: larger;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+button:hover::after {
+    display: inline; /* Show new text on hover */
+  }
+
+ 
+.image{
+    flex: 1;
+    text-align: right;
+    width: 500px;
+    height: 225px;
+    border-radius: 25px;
+    border-style: double;
+    border-color: whitesmoke;
+}
+
+.image img{
+    width: 500px;
+    height: 225px;
+    border-radius: 25px;
+}
+
+
+section{
+    background:linear-gradient(to left, #2c6bc4, #756a6a);
+    margin: 0;
+    padding: 0;
+
+}
+
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    border-style: ridge;
+    border-color: whitesmoke;
+}
+
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    padding: 25px;
+    font-size: 35px;
+}
+
+p{
+   font-family: serif;
+}
+
+.sect-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 90px;
+}
+
+.all-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+h1{
+    padding: 25px;
+   font-style: italic;
+   color: azure;
+  
+ 
+}
+
+.all-style, img, p {
+    flex: 1;
+    padding: 12px;
+}
+
+aside{
+   background-color: rgb(205, 219, 189) ;
+}
+
+h3{
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.motive{
+    text-align: center;
+}
+
+.name{
+    font-weight: bold;
+    text-align: end;
+    padding-right: 300px;
+}
+
+
+article{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.art-container{
+    background-color: #2c6bc4;
+    width: 1010px;
+    height: auto;
+    border-radius:15px;
+    margin: 20px auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.artp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.art-btn{
+    background-color: #7797c4;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    transition: all 0.3s ease;
+   
+}
+
+.art-btn:hover {
+    background-color: #7bdddd;
+    color: #ff5722;
+    transform: translateX(-10px); 
+}
+
+footer{
+    background: linear-gradient(to right, #0a2449, rgb(104, 155, 155));
+    height: 100px;
+}
+
+.footer-text{
+    text-align: center;
+    color: wheat;
+    padding-top: 40px;
+}
